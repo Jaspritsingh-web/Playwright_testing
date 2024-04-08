@@ -1,8 +1,5 @@
 const {test,expect}=require('@playwright/test');//expect: for validation
 //objective  capture title of the page  , url is correct or not
-
-
-
 //this take two params 1 title and 2 anonymous fxn and in this fxn we have to pass fixture
 // contains fxns through them  you can do the automation which is given in playwright
 test('Home Page',async ({page})=>{ //async will make fxn and return promise
